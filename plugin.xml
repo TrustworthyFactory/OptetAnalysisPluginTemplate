@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension
+         point="org.eclipse.pde.ui.pluginContent">
+      <wizard
+            class="com.thalesgroup.optet.plugin.template.SimpleViewTemplateWizard"
+            icon="icons/newexprj_wiz.gif"
+            id="com.thalesgroup.optet.plugin.template.wizard"
+            name="Optet plug-in template">
+         <description>
+            Optet plug-in template.
+         </description>
+      </wizard>
+   </extension>
+   <extension
+         point="org.eclipse.pde.ui.templates">
+      <template
+            class="com.thalesgroup.optet.plugin.template.ViewSection"
+            contributingId="org.eclipse.ui.views (simple2)"
+            id="com.thalesgroup.optet.plugin.template"
+            name="Optet Simple View2"/>
+      <template
+            class="com.thalesgroup.optet.plugin.template.SimpleViewTemplateSection"
+            contributingId="org.eclipse.ui.views (simple)"
+            id="com.thalesgroup.optet.plugin.template"
+            name="Optet Simple View"/>
+   </extension>
+
+</plugin>

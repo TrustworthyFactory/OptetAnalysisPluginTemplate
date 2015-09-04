@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OptetPlugin>
+	<categories name="">
+		<category name="">
+			<evidence name="" />
+			<evidence name="" />
+		</category>
+		<category name="">
+			<evidence name="" />
+			<evidence name="" />
+			<evidence name="" />
+		</category>
+	</categories>
+	<categories name="">
+		<category name="">
+			<evidence name="" />
+			<evidence name="" />
+		</category>
+		<category name="">
+			<evidence name="" />
+			<evidence name="" />
+			<evidence name="" />
+		</category>
+	</categories>
+</OptetPlugin>
